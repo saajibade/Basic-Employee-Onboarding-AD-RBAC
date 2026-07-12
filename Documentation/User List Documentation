@@ -1,0 +1,34 @@
+Domain Name : NMG.com
+Identity Provisioning Date: July 12,2026
+Total User Created: 15 Accounts
+Standard Naming Convention : First Initial + Last Name(lowercase, No spaces)
+
+Role-Based Access Control (RBAC) Directory Mapping:
+Finance Department
+OU Path:[NMG.com/Finance] (https://NMG.com/Finance)
+Assigned security Group: Finance-Users
+Active Members:          David Chen (dchen)-Finance Manager
+                         Karen Mills (kmills)-Finance Analyst
+                         Robert Hayes(rhayes)-Payroll Specialist
+                         Lisa Park(lpark)- Accounts Payable
+HR Department
+OU Path:[NMG.com/HR] (https://NMG.com/HR)
+Assigned security Group: HR-Users
+Active Members:          Sandra Torres (storres)-HR Manager
+                         James Whitfield (jwhitfield)-HR Recruiter
+                         Michelle Grant (mgrant)-Benefit Coordinator 
+IT Department                   
+OU Path:[NMG.com/IT] (https://NMG.com/IT)
+Assigned security Group: IT-Users
+Active Members:          Marcus Johnson (mjohnson)-IT Administrator
+                         Priya Patel (ppatel)-Security Analyst
+                         Tyler Brooks (tbrooks)-Help Desk Technician
+                         Aisha Coleman (acoleman)-System Technician 
+Operations Department                   
+OU Path:[NMG.com/Operations] (https://NMG.com/Operations)
+Assigned security Group: Operations-Users
+Active Members:          Brian Foster (bfoster)-Operations Manager
+                         Jane Cooper (jcooper)-Operations Coordinator
+                         Carlos Rivera (crivera)-facility Supervisor
+                         Natalie Ross (nross)-Scheduling Coordinator 
+Date Completed: 7/12/2026
