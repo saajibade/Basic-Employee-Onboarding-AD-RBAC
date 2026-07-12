@@ -1,0 +1,23 @@
+1. Jane's User Identity is in Operations OU.
+2. I found out that Jane was in the operations OU, but she is supposed to be in the HR OU. Because she's a HR payroll specialist.
+3. Jane Cooper is currrently a memeber of:Operations-Users, she should be a member of HR-Users.
+
+
+Jane's account was incorrectly placed in the operations OU, her machine is pulling down the operations department's environmental rules and drive maps instead of the administrative/payroll ones she requires.
+Jane is getting Access Denied because she is a memner of Operations-Users instead of the group that handles sensitive payroll 
+
+
+Ticket number: NMG-0047
+Affected user: Jane Cooper (jcooper@NMG.com)
+
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates.
+
+Root cause: Jane Cooper's account suffered from a double misconfiguration during initial setup. First, she was incorrectly placed into the Operations OU instead of the HR OU, causing her workstation to pull down the wrong Group Policy Objects (GPOs), resulting in different desktop policies and incorrect mapped drives. Second, she was mistakenly assigned to the Operations-Users security group and completely left out of the HR-Users group, causing her to get 'Access Denied' errors when trying to access HR-specific network shares and payroll resources.
+
+Fix applied: Moved Jane Cooper's user object from the Operations OU to the correct HR OU so her account pulls the proper departmental Group Policies. Additionally, modified her group membership by removing her from the incorrect 'Operations-Users' security group and adding her to the 'HR-Users' security group to restore proper role-based access control (RBAC) permissions.
+
+Verification: Confirmed the fix by checking the HR OU container to ensure her user account appears alongside her HR teammates. Opened the properties of the HR-Users security group and verified that 'jcooper' is explicitly listed under the Members tab. Collected screenshots 'Jane_Moved_To_HR_OU.png', 'Jane_Group_Corrected.png', and 'HR_OU_With_Jane_Verified.png' as administrative proof.
+
+Date resolved: July 12, 2026
+
+Resolved by: Sam Ajibade
