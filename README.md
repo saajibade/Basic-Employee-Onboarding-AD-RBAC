@@ -1,5 +1,5 @@
 # Basic Employee Onboarding (AD)(RBAC)
-
+![Northstar Medical Group Project Roadmap](./Screenshots/Project-Roadmap.png)
 ## Problem Statement
 Northstar Medical Group's infrastructure was left severely compromised due to years of mismanagement by a third-party Managed Service Provider (MSP). The environment completely lacked structure, operating on a flat directory with manual, ad-hoc user provisioning that lacked standardized naming conventions or attribute consistency. Because there were no established security boundaries or role-based access controls, administrative access was unmonitored and file permissions were completely unmanaged. This severe technical deficit introduced massive operational inefficiencies and created critical security vulnerabilities, placing the organization at high risk for catastrophic HIPAA compliance exposure regarding Protected Health Information (PHI).
 
