@@ -7,7 +7,7 @@ Northstar Medical Group's infrastructure was left severely compromised due to ye
 To remediate these structural failures, a greenfield enterprise identity infrastructure was engineered and deployed from the ground up by standing up the `NMG.com` domain on a fresh Windows Server instance. A multi-tier Organizational Unit (OU) hierarchy was designed to partition the business logically into distinct departments, including Finance, HR, IT, and Operations. Role-Based Access Control (RBAC) was systematically implemented by binding dedicated security groups to each OU, establishing strict least-privilege administrative and file-share access boundaries. Finally, 15 real corporate user identities were cleanly provisioned using rigorous data entry validation to enforce absolute consistency across SAMAccountNames, UPNs, job titles, and departmental attributes. This robust deployment successfully modernizes Northstar’s access lifecycle management, ensures immediate regulatory compliance, and provides a scalable blueprint for future network expansion.
 
 ## Video Walkthrough
-*🎥 [Placeholder: Click here to view the 5-7 minute live lab environment walkthrough and technical demonstration video - To be updated on Day 5]*
+*🎥 [Placeholder: Click here to view the 5-7 minute live lab environment walkthrough and technical demonstration video - https://www.loom.com/share/d768df7e72a04536915436e01a7b9aec]*
 
 ## Tools Used
 * Windows Server 
